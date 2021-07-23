@@ -1,0 +1,48 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.note {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    border: rgb(0, 0, 0) groove 4px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+body {
+    background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+}
+
+:hover.heading {
+    background-color: red;
+    font-size: 30px;
+}
+
+:hover.copy_right_footer {
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+}
+
+video {
+    border: 5px groove gray;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
